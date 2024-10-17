@@ -1,0 +1,395 @@
+.Orange {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #fff;
+    color: #1f1f1f;
+    border-radius: 0px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.Orange .cv-header {
+    background-image: url('https://i.pinimg.com/564x/ef/a6/b6/efa6b6636211e60573d4c4321381e975.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+.Orange .profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 2px solid #ff8800;
+}
+
+.Orange .name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff8800;
+    margin: 0;
+}
+
+.Orange .job-title {
+    font-size: 22px;
+    color: #020202;
+    margin: 10px 0;
+}
+
+.Orange .contact-info {
+    text-align: start;
+    background-color: #d0d0d0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Orange .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Orange .contact-info p strong {
+    color: #ff8800;
+}
+
+.Orange .section h3 {
+    text-align: start;
+    font-size: 28px;
+    color: #ff8800;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.Orange .section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Orange .section ul li {
+    text-align: start;
+    font-size: 18px;
+    margin: 1px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.Orange .section ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ff8800;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.Blue {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 0px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+.Blue .cv-header {
+    background-image: url('https://i.pinimg.com/564x/ef/a6/b6/efa6b6636211e60573d4c4321381e975.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+}
+
+.Blue .profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 0;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #00d9ff;
+}
+
+.Blue .name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00d9ff;
+    margin: 0;
+}
+
+.Blue .job-title {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.Blue .contact-info {
+    text-align: left;
+    color: white;
+    background-color: #3f3f3f;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.Blue .contact-info p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.Blue .contact-info p strong {
+    color: #00d9ff;
+}
+
+.Blue .section h3 {
+    text-align: left;
+    font-size: 26px;
+    color: #00d9ff;
+    border-bottom: 2px solid #00d9ff;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.Blue .section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Blue .section ul li {
+    text-align: start;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.Blue .section ul li:before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    color: #00d9ff;
+    font-size: 20px;
+}
+
+.Purple {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 50px;
+    background-color: #fafafa;
+    color: #333;
+    border-radius: 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+}
+
+.Purple .cv-header {
+    background-image: url('https://i.pinimg.com/564x/ef/a6/b6/efa6b6636211e60573d4c4321381e975.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-radius: 25px 25px 0 0;
+    border-bottom: 5px solid #8800ff;
+}
+
+.Purple .profile-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Purple .name {
+    font-size: 40px;
+    font-weight: 700;
+    color: #8800ff;
+    margin: 0;
+}
+
+.Purple .job-title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Purple .contact-info {
+    text-align: left;
+    background-color: #f4f4f4;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.Purple .contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.Purple .contact-info p strong {
+    color: #8800ff;
+}
+
+.Purple .section h3 {
+    text-align: left;
+    font-size: 28px;
+    color: #8800ff;
+    border-bottom: 3px solid #8800ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.Purple .section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Purple .section ul li {
+    text-align: start;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.Purple .section ul li:before {
+    content: "•";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8800ff;
+    font-size: 24px;
+}
+
+.Griv {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.Griv .cv-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+.Griv .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 3px solid #ff0066;
+}
+
+.Griv .name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff0066;
+    margin: 0;
+}
+
+.Griv .job-title {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.Griv .contact-info {
+    text-align: left;
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.Griv .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Griv .contact-info p strong {
+    color: #ff0066;
+}
+
+.Griv .section h3 {
+    font-size: 24px;
+    color: #ff0066;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Griv .section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Griv .section ul li {
+    text-align: start;
+    font-size: 18px;
+    margin: 2px 0;
+    position: relative;
+    padding-left: 15px;
+}
+
+.Griv .section ul li:before {
+    content: "✦";
+    position: absolute;
+    left: 0;
+    color: #ff0066;
+    font-size: 18px;
+}
+
+
+
+.download-button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #096b06;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #064503;
+}
